@@ -62,3 +62,21 @@ $(document).ready(function() {
     offset: '90%'
   });
 
+  /* Mobile navigation */
+  $('.js--nav-icon').click(function() {
+      var icon = $('#testing').attr('name');
+      var nav = $('.js--main-nav');
+      nav.slideToggle(200);
+
+      if (icon == 'menu') {
+        $('#testing').attr('name', 'close');
+      } else {
+        $('#testing').attr('name', 'menu');
+      }
+  });
+
+
+
+
+
+

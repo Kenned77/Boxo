@@ -42,6 +42,11 @@
 
     .plan-price { font-size: 200%; }
     .contact-form { width: 80%; }
+
+    .logo p {
+        padding-left: 185px;
+        font-size: 100%;
+    }
 }
 
 /* Small phones to small tablets 480px - 767px */
@@ -57,6 +62,41 @@
     }
 
     .main-nav { display: none; }
+
+    .mobil-nav-icon {
+        display: inline-block;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .logo p {
+        padding-left: 170px;
+        font-size: 90%;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav {margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {padding: 10px 0; }
+
+    .sticky .mobil-nav-icon ion-icon {color: #555; }
+    .sticky .mobil-nav-icon {margin-top: 10px; }
 
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }

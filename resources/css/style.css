@@ -267,6 +267,18 @@ header {
 
 }
 
+.mobil-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobil-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
+}
+
 /*--------------------------------------------------*/
 /*STICKY NAV*/
 /*--------------------------------------------------*/
