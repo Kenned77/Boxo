@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
@@ -28,22 +29,22 @@
           </div>
 
           <ul class="main-nav">
-            <li><a href="#">OVERVÅGNING</a></li>
-            <li><a href="#">TÅGESIKRING</a></li>
-            <li><a href="#">KONTROLCENTRAL</a></li>
-            <li><a href="#">KONTAKT</a></li>
+            <li><a href="#hvem">HVEM ER VI</a></li>
+            <li><a href="#hvordan">HVORDAN</a></li>
+            <li><a href="#tilbud">TILBUD</a></li>
+            <li><a href="#kontakt">KONTAKT</a></li>
           </ul>
         </dir>
       </nav>
 
       <div class="boxo-text-box">
         <h1>Hvis sikring er vigtigt for dig.</h1>
-        <a class="btn btn-full" href="#">BOXO Sikring</a>
-        <a class="btn btn-ghost" href="#">Lad det være simpelt</a>
+        <a class="btn btn-full js--scroll-to-plans" href="#">BOXO Sikring</a>
+        <a class="btn btn-ghost js--scroll-to-start" href="#">Lad det være simpelt</a>
       </div>
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="hvem">
       <div class="row">
         <h2>
           BOXO kan i stole på vi holder jer trykke!
@@ -53,7 +54,7 @@
           En alarm er ikke bedre end den reaktion der kommer på den, om den skal alarmerer brugeren direkte, eller om man vil kobles op til en kontrolcentral er langt hen af vejen et temperament spørgsmål.
         </p>
       </div>
-      <div class="row">
+      <div class="row js--wp-1">
         <div class="col span-1-of-4 box">
           <h3>
             <ion-icon name="hand" class="icon-big"></ion-icon><br />
@@ -154,7 +155,7 @@
       </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="hvordan">
       <div class="row">
         <h2>
           Hvordan virker det &mdash; super simpelt
@@ -162,7 +163,7 @@
       </div>
       <div class="row">
         <div class="col span-1-of-2 steps-box">
-          <img src="resources/img/Smartphone-3-icon.png" alt="maerke-1" class="app-screen">
+          <img src="resources/img/Smartphone-3-icon.png" alt="maerke-1" class="app-screen js--wp-2">
         </div>
         <div class="col span-1-of-2 steps-box">
           <div class="works-step">
@@ -189,7 +190,7 @@
         <h2>Her kan du blant andet finde os</h2>
       </div>
 
-      <div class="row">
+      <div class="row js--wp-3">
         <div class="col span-1-of-4 box">
           <img src="resources/img/kbh.jpg" alt="kbh">
           <h3>København</h3>
@@ -303,7 +304,7 @@
       </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="tilbud">
       <div class="row">
         <h2>
           Hvordan kommer vi igang
@@ -312,7 +313,7 @@
 
       <div class="row">
         <div class="col span-1-of-3">
-          <div class="plan-box">
+          <div class="plan-box js--wp-4">
             <div>
               <h3>Månedlig</h3>
               <p class="plan-price">1 500 DKK</p>
@@ -382,7 +383,7 @@
       </div>
     </section>
 
-    <section class="section-form">
+    <section class="section-form" id="kontakt">
       <div class="row">
         <h2>Vi glæder os til at høre fra dig</h2>
       </div>
