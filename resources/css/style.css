@@ -579,6 +579,22 @@ footer {
 }
 
 .footer-nav li,
+.footer-nav li a {
+    font-size: 94%;
+    color: #888;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+}
+
+.footer-nav li:hover,
+.footer-nav li a:hover {
+    color: #e74c3c;
+    transition: color 0.2s;
+}
+
+.footer-nav li,
 .social-links li {
     display: inline-block;
     margin-right: 20px;
@@ -589,8 +605,8 @@ footer {
     margin-right: 0px;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
+/*.footer-nav li a:link,
+.footer-nav li a:visited,*/
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
@@ -599,10 +615,10 @@ footer {
     transition: color 0.2s;
 }
 
-.footer-nav li a:hover,
+/*.footer-nav li a:hover,
 .footer-nav li a:active {
     color: #ddd;
-}
+}*/
 
 .social-links li a:link,
 .social-links li a:visited {
