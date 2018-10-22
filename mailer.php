@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
 
     // Redirect to the index.html page with success code
-    header("Location: http://www.webdesigncourse.co/omnifood/index.php?success=1#form");
+    header("Location: https://boxo-sikring.herokuapp.com/boxo/index.php?success=1#form";
 
 ?>
